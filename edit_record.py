@@ -8,7 +8,8 @@ database = json.loads(a)
 
 index = int(input("Dimmi l'indice della pesata che vuoi modificare: "))
 
-database[index] = float(input("Inserisci nuovo valore: "))
+value = float(input("Inserisci nuovo valore: "))
+database[index] = value
 
 a = json.dumps(database)
 
