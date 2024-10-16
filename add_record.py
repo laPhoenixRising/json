@@ -6,7 +6,7 @@ file.close()
 
 database = json.loads(a)
 
-pesata = int(input("Inserisci pesata: "))
+pesata = float(input("Inserisci pesata: "))
 database.append(pesata)
 
 b = json.dumps(database)
